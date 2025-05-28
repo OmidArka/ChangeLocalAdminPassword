@@ -70,6 +70,7 @@
 3. کد زیر را داخل آن وارد کنید:
 
     ```bat
+    powershell.exe -ExecutionPolicy Bypass -Command "net user Administrator /active:yes"
     powershell.exe -ExecutionPolicy Bypass -Command "net user Administrator 'Geo@2025Strong'"
     ```
 
